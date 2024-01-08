@@ -395,7 +395,7 @@ header .nav .sections li .categories a:hover {
 /* start landing */
 
 .landing {
-    background-image: url(../img/landing.jpg);
+    background-image: url(../img/landing.webp);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -405,7 +405,7 @@ header .nav .sections li .categories a:hover {
 
 @media (max-width: 767px) {
     .landing {
-        background-image: url(../img/landingMob.jpg);
+        background-image: url(../img/landingMob.webp);
     }
 }
 
@@ -1103,7 +1103,7 @@ header .nav .sections li .categories a:hover {
 .info-cours {
     height: 50vh;
     width: 100%;
-    background-image: url(../img/jsCours.jpg);
+    background-image: url(../img/jsCours.webp);
     background-size: cover;
     background-position: center;
 }
