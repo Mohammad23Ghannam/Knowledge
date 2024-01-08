@@ -1,0 +1,222 @@
+:root {
+    --first-color: #0075ff;
+    --second-color: #0d69d5;
+    --third-color: #fcd664;
+    --fourth-color: #d2b510;
+    --gray-1: #777;
+    --gray-2: #999;
+    --gray-3: #ccc;    
+    --gray-4: #ddd;    
+    --gray-5: #f2f2f2;
+
+    --transition: .3s: 
+}
+
+/*      display     */
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+@media (max-width: 767px) {
+    .d-non-mob {
+        display: none;
+    }
+}
+
+/*    padding    */
+
+.p-sec-60 {
+    padding: 60px 0;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.p-t-20 {
+    padding-top: 20px;
+}
+
+.p-r-20 {
+    padding-right: 20px;
+}
+
+.p-b-20 {
+    padding-bottom: 20px;
+}
+
+.p-l-20 {
+    padding-left: 20px;
+}
+
+.p-t-60 {
+    padding-top: 60px;
+}
+
+.p-b-60 {
+    padding-bottom: 60px;
+}
+
+/*    margin    */
+
+.m-t-20 {
+    margin-top: 20px;
+}
+
+.m-t-100 {
+    margin-top: 100px;
+}
+
+.m-r-20 {
+    margin-right: 20px;
+}
+
+.m-b-20 {
+    margin-bottom: 20px;
+}
+
+.m-l-20 {
+    margin-left: 20px;
+}
+
+/*   center   */
+
+.c-text {
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .c-text-mob {
+        text-align: center;
+    }
+}
+
+.c-width {
+    display: flex;
+    justify-content: center;
+}
+
+.c-height {
+    display: flex;
+    align-items: center;
+}
+
+.c-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-po {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*    position    */
+
+.p-rel {
+    position: relative;
+}
+
+/*   color & backgroun-color */
+
+.cl-fi {
+    color: var(--first-color);
+}
+
+.cl-se {
+    color: var(--second-color);
+}
+
+.cl-th {
+    color: var(--third-color);
+}
+
+.cl-fo {
+    color: var(--fourth-color);
+}
+
+.cl-gold {
+    color: gold
+}
+
+.cl-g-1 {
+    color: var(--gray-1);
+}
+
+.cl-w {
+    color: white;
+}
+
+.b-c-fi {
+    background-color: var(--first-color);
+}
+
+.b-c-se {
+    background-color: var(--second-color);
+}
+
+.b-c-th {
+    background-color: var(--third-color);
+}
+
+.b-c-fo {
+    background-color: var(--fourth-color);
+}
+
+.b-c-g-5 {
+    background-color: var(--gray-5);
+}
+
+.b-c-w {
+    background-color: white;
+}
+
+/*    border    */
+
+.b-non {
+    border: none !important;
+}
+
+.b-rad-6 {
+    border-radius: 6px;
+}
+
+/*    text    */
+
+.l-h {
+    line-height: 1.8;
+}
+
+.f-b {
+    font-weight: bold;
+}
+
+.f-s-80 {
+    font-size: 80px;
+}
+
+/* over flow */
+
+.o-f {
+    overflow: hidden;
+}
